@@ -380,6 +380,7 @@ export default {
                         this.onBackspaceKey(event, this.editable);
                         break;
                     case 190:
+                    case 13:
                         this.onEnterKey(event);
                         break;
                 }
